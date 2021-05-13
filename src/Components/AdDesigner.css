@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+.AdDesigner {
+    padding: 6px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.ad_box {
+    width:250px;
+    height: 150px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 2px 1px rgba(128, 128, 128, .5);
+}
+
+.ad_box {
+    background-color: rgb(255, 225, 209);
+    border: 2px solid #222;
+}
+
+.ad_box.dark {
+    background-color: #222;
+    border: 2px solid white;
+}
+
+
+.ad_vote {
+    text-align: center;
+}
+.ad_vote.dark {
+    color:white;
+}
+
+.ad_flavor {
+    font-family: "Caveat", cursive;
+    text-align: center;
+    margin-top: 0;
+
+}
+.ad_flavor.dark {
+    color: white
+
+}
+
+.ad_controls {
+    text-align: center;
+}
+
+
+/* light ad text color #000  */
+/* dark ad text color #fff */

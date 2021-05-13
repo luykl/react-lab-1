@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+
+.AdDesigner {
+    padding: 6px;
+    width: 500px;
+    margin: 0 auto;    
+}
+
+.placeholder {
+    height:100px;
+    width: 250px;
+    margin: 20px auto;
+    border: 1px solid gray;
+}
