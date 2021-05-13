@@ -1,6 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
+.adBanner {
+    display: flex;
+    justify-content: center;
+}
+
 button {
     color: white;
     background-color: #0e3c7e;
@@ -22,7 +27,8 @@ button:disabled {
 h1 {
     font-family: "Caveat", cursive;
     color: #0e3c7e;
-    text-align: center;
+    text-align: left;
+    margin-left: 20px;
 }
 
 h2 {

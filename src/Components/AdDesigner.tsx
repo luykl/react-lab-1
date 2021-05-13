@@ -22,11 +22,6 @@ function AdDesigner() {
           themeClass = " dark"
       }
 
-      const disabled = "";
-
-
-
-
 
     return (
         <div className="AdDesigner">

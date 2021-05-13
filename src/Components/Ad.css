@@ -1,0 +1,24 @@
+
+
+.AdDesigner {
+    padding: 6px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.Ad {
+    width:250px;
+    height: 150px;
+    margin: 20px 4px;
+    box-shadow: 2px 2px 2px 1px rgba(128, 128, 128, .5);
+}
+
+.Ad.light {
+    background-color: rgb(255, 225, 209);
+    border: 2px solid black
+}
+
+.Ad.dark {
+    background-color: black;
+    border: 2px solid white
+}

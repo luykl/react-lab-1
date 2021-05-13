@@ -1,15 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
 
-.AdDesigner {
+.Votes {
     padding: 6px;
     width: 500px;
-    margin: 0 auto;    
+    margin: 20px auto;    
 }
 
-.placeholder {
-    height:100px;
-    width: 250px;
-    margin: 20px auto;
-    border: 1px solid gray;
+.vote_controls {
+    text-align:center;
+}
+
+.bar {
+    height: 30px;
+    border-radius: 3px;
+    margin: 2px 0;
+}
+
+#chocolate {
+    background-color: brown;
+}
+
+#vanilla {
+    background-color: blanchedalmond;
+}
+
+#strawberry {
+    background-color: palevioletred;
 }

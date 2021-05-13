@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
-.AdDesigner {
-    padding: 6px;
-    width: 500px;
-    margin: 0 auto;
-}
-
 .ad_box {
     width:250px;
     height: 150px;
@@ -19,6 +13,16 @@
 }
 
 .ad_box.dark {
+    background-color: #222;
+    border: 2px solid white;
+}
+
+/* .ad.light {
+    background-color: rgb(255, 225, 209);
+    border: 2px solid #222;
+} */
+
+.ad.dark {
     background-color: #222;
     border: 2px solid white;
 }
