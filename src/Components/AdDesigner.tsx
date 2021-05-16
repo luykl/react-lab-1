@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './AdDesigner.css';
+import Ad from './Ad';
 
 function AdDesigner() {
 
@@ -26,10 +27,11 @@ function AdDesigner() {
     return (
         <div className="AdDesigner">
             <h2>Ad Designer</h2>
-            <p className={"ad_box" + themeClass}>
+            <section className="Ad_section"><Ad flavor={flavor} fontSize={size} darkTheme={darkTheme}/></section>
+            {/* <p className={"ad_box" + themeClass}>
                 <p className={"ad_vote" + themeClass}>Vote for</p>
                 <p className={"ad_flavor" + themeClass}style={fontSizeStyle}> {flavor} </p>
-            </p>
+            </p> */}
             <h3>What to Support</h3>
                 <p className="ad_controls">
                     <button disabled={flavor==="Chocolate"} onClick={() => setFlavor("Chocolate")}>Chocolate</button>

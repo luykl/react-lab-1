@@ -17,10 +17,6 @@
     border: 2px solid white;
 }
 
-/* .ad.light {
-    background-color: rgb(255, 225, 209);
-    border: 2px solid #222;
-} */
 
 .ad.dark {
     background-color: #222;
@@ -49,6 +45,8 @@
 .ad_controls {
     text-align: center;
 }
+
+
 
 
 /* light ad text color #000  */

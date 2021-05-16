@@ -10,12 +10,14 @@ function App() {
     <div className="App">
       <header><Header user="Bob Loblaw"/></header>
       <div className="adBanner">
-        <section><Ad flavor="Strawberry" fontSize={45} darkTheme={false}/></section>
-        <section><Ad flavor="Chocolate" fontSize={50} darkTheme={true}/></section>
-        <section><Ad flavor="Vanilla" fontSize={65} darkTheme={false}/></section>
+          <section><Ad flavor="Strawberry" fontSize={45} darkTheme={false}/></section>
+          <section><Ad flavor="Chocolate" fontSize={50} darkTheme={true}/></section>
+          <section><Ad flavor="Vanilla" fontSize={65} darkTheme={false}/></section>
       </div>
-      <section><AdDesigner/></section>
-      <section><Votes/></section>
+        <div className="flex">
+          <section><AdDesigner/></section>
+          <section><Votes/></section>
+      </div>
     </div>
   );
 }

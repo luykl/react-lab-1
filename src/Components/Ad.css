@@ -9,7 +9,7 @@
 .Ad {
     width:250px;
     height: 150px;
-    margin: 20px 4px;
+    margin: 10px auto;
     box-shadow: 2px 2px 2px 1px rgba(128, 128, 128, .5);
 }
 

@@ -4,38 +4,11 @@
 .adBanner {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
-button {
-    color: white;
-    background-color: #0e3c7e;
-    border-radius: 3px;
-    border: .5px;
-    padding: .6em;
-    margin: 5px;
-
-}
-
-button:active {
-    background-color: #1e60a9;
-}
-
-button:disabled {
-    background-color: gray;
-}
-
-h1 {
-    font-family: "Caveat", cursive;
-    color: #0e3c7e;
-    text-align: left;
-    margin-left: 20px;
-}
-
-h2 {
-    font-family: "Caveat", cursive;
-    text-align: center;
-}
-
-h3 {
-    text-align: center;
+.flex {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
 }
